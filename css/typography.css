@@ -4,6 +4,16 @@ html {
 }
 
 h1 {
-    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem; /* 32px */
     margin: .67rem 0 .67rem 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 1.5rem /* 24px */
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem; /* 18px */
 }
