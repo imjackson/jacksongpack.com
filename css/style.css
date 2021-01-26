@@ -1,4 +1,5 @@
 :root {
+    /* colors */
     --pure-white: #ffffff;
     --white: #f9f9f9;
     --off-white: #fffff8;
@@ -6,8 +7,12 @@
     --accent-green: #bcf0df;
     --accent-blue: #14213d;
 
+    /* theming */
     --background: var(--off-white);
     --text: var(--black);
+
+    /* sizing */
+    --content-width: 600px;
 
 }
 
@@ -25,7 +30,7 @@ html, body {
     height: 100%;
     overflow-y: scroll;
     display: grid;
-    grid-template-columns: auto 500px auto;
+    grid-template-columns: auto var(--content-width) auto;
 }
 
 #inner_track {
