@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../assets/fonts/Lato-Regular.woff2") format("woff2"),
+         url("../assets/fonts/Lato-Regular.woff") format("woff");
+  }
+
 html {
     font-size: 16px;
     line-height: 1.15;
@@ -15,6 +21,6 @@ h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.25rem; /* 18px */
 }
