@@ -1,9 +1,21 @@
+:root {
+    --white: #f9f9f9;
+    --black: #252525;
+    --accent-green: #bcf0df;
+    --accent-blue: #14213d;
+
+    --background: var(--white);
+    --text: var(--black);
+
+}
+
 html, body {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: var(--background);
 }
 
 #page {
