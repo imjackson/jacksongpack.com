@@ -2,6 +2,8 @@
     font-family: "Lato";
     src: url("../assets/fonts/Lato-Regular.woff2") format("woff2"),
          url("../assets/fonts/Lato-Regular.woff") format("woff");
+    font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -9,6 +11,7 @@
     src: url("../assets/fonts/Roboto-Bold.woff2") format("woff2"),
          url("../assets/fonts/Roboto-Bold.woff") format("woff");
     font-weight: bold;
+    font-display: swap;
 }
 
 @font-face {
@@ -16,6 +19,7 @@
     src: url("../assets/fonts/IBMPlexSans-Bold.woff2") format("woff2"),
          url("../assets/fonts/IBMPlexSans-Bold.woff") format("woff");
     font-weight: bold;
+    font-display: swap;
 }
 
 
