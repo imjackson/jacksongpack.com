@@ -43,3 +43,9 @@ p {
     font-size: 1.25rem;
     margin: .75rem 0;
 }
+
+a {
+    background-color: transparent;
+    color: var(--text);
+    text-decoration: underline;
+}
