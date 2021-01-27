@@ -12,8 +12,12 @@
     --text: var(--black);
 
     /* sizing */
-    --content-width: 600px;
-
+    --content-width: 640px;
+}
+@media screen and (max-width: 750px) {
+    :root {
+        --content-width: 85%;
+    }
 }
 
 /* html/body */
