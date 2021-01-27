@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: "IMB Plex Sans";
+    font-family: "IBM Plex Sans";
     src: url("../assets/fonts/IBMPlexSans-Bold.woff2") format("woff2"),
          url("../assets/fonts/IBMPlexSans-Bold.woff") format("woff");
     font-weight: bold;
@@ -28,8 +28,8 @@ html {
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-family: "IBM Plex Sans", Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
     margin: .67rem 0 .67rem 0;
 }
 
