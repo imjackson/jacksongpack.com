@@ -16,6 +16,7 @@
 
 }
 
+/* html/body */
 html, body {
     height: 100%;
     width: 100%;
@@ -25,6 +26,8 @@ html, body {
     background-color: var(--background);
 }
 
+
+/* Page layout */
 #page {
     width: 100%;
     height: 100%;
@@ -32,11 +35,16 @@ html, body {
     display: grid;
     grid-template-columns: auto var(--content-width) auto;
 }
-
 #inner_track {
     display: flex;
     flex-flow: column nowrap;
 }
+
+/* Intro section */
+#section_intro {
+    padding-top: 100px;
+}
+
 
 /* Skills Section */
 #skills_container {
@@ -44,19 +52,17 @@ html, body {
     display: flex;
     font-family: row nowrap;
 }
-
 .skills_column {
     flex: 1 0 auto;
     display: flex;
     flex-flow: column nowrap;
 }
-
 .skill_item {
     margin: 2px 0 2px 1rem;
     font-size: 1.1rem;
 }
 
-
+/* html elements */
 hr {
     box-sizing: content-box;
     width: 100%;
