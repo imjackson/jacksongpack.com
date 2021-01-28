@@ -4,6 +4,7 @@
          url("../assets/fonts/Lato-Regular.woff") format("woff");
     font-weight: normal;
     font-display: swap;
+    unicode-range: U+0000—007F;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
          url("../assets/fonts/Roboto-Bold.woff") format("woff");
     font-weight: bold;
     font-display: swap;
+    unicode-range: U+0000—007F;
 }
 
 @font-face {
@@ -20,6 +22,7 @@
          url("../assets/fonts/IBMPlexSans-Bold.woff") format("woff");
     font-weight: bold;
     font-display: swap;
+    unicode-range: U+0000—007F;
 }
 
 
