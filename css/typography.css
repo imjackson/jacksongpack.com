@@ -30,6 +30,11 @@ html {
     -webkit-text-size-adjust: 100%;
     color: var(--black);
 }
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+}
 
 /* Headers */
 h1 {
