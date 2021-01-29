@@ -88,10 +88,10 @@ hr {
 }
 .skill_divider_mobile {
     border: none;
-    margin: 0 0.5rem;
+    margin: 0 8px;
     width: 2px;
     height: 15px;
-    background-color: var(--accent-blue);
+    background-color: rgba(97, 94, 94, 0.61);
     display: none;
 }
 @media screen and (max-width: 750px) {
