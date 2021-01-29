@@ -80,15 +80,30 @@ hr {
     margin: 2px 0 2px 1rem;
     font-size: 1.1rem;
 }
+.skill_divider_mobile {
+    border: none;
+    margin: 0 0.5rem;
+    width: 2px;
+    height: 15px;
+    background-color: var(--accent-blue);
+    display: none;
+}
 @media screen and (max-width: 750px) {
     #skills_container {
         flex-flow: column nowrap;
     }
     .skill_list {
         flex-flow: row wrap;
+        align-items: center;
     }
     .skill_item {
         margin: 2px 0;
+    }
+    .skill_divider_mobile {
+        display: initial;
+    }
+    .skill_divider_mobile:last-child {
+        display: none;
     }
 }
 
