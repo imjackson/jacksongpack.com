@@ -142,3 +142,17 @@ footer {
     font-weight: bold;
     color: var(--accent-grey);
 }
+
+/* 404 */
+#notfound_body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+#notfound_main {
+    flex: 1 0 auto;
+}
+.notfound_inner_track {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
