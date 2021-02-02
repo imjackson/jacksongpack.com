@@ -84,7 +84,7 @@ a:focus {
 }
 
 /* Intro */
-#intro_subtitle {
+p#intro_subtitle {
     color: var(--accent-blue);
     text-transform: uppercase;
     font-size: 1.35rem;
