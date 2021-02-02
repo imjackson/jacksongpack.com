@@ -28,7 +28,8 @@
 
 @font-face {
     font-family: Roboto;
-    src: url("../assets/fonts/Roboto-Bold-subset.woff2") format("woff2");
+    src: local("Roboto-Bold"),
+        url("../assets/fonts/Roboto-Bold-subset.woff2") format("woff2");
     font-style: normal;
     font-weight: bold;
     font-display: swap;
