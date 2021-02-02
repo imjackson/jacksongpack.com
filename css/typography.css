@@ -78,7 +78,7 @@ a {
 
 /* Intro */
 #intro_subtitle {
-    color: var(--accent-grey);
+    color: var(--accent-blue);
     text-transform: uppercase;
     font-size: 1.35rem;
     font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
