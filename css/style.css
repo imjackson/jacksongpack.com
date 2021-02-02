@@ -35,6 +35,9 @@ body {
 main {
     display: block;
 }
+main#main {
+    flex: 1 0 auto;
+}
 
 /* Page layout */
 div#page {
@@ -146,9 +149,4 @@ p.experience_subhead {
     font-family: Roboto, system-ui;
     font-weight: bold;
     color: var(--accent-blue);
-}
-
-/* 404 */
-main#notfound_main {
-    flex: 1 0 auto;
 }
