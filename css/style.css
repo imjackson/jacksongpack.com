@@ -81,6 +81,8 @@ footer {
 #inner_track {
     display: flex;
     flex-flow: column nowrap;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 /* Skills Section */
