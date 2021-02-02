@@ -49,6 +49,11 @@ hr {
     background-color: rgba(145, 145, 145, 0.425);
 }
 
+/* header */
+header {
+    padding-top: 100px;
+}
+
 /* footer */
 footer {
     width: 100%;
@@ -74,11 +79,6 @@ footer {
 #inner_track {
     display: flex;
     flex-flow: column nowrap;
-}
-
-/* Intro section */
-#section_intro {
-    padding-top: 100px;
 }
 
 /* Skills Section */
