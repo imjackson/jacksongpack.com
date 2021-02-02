@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Lato";
     src: url("../assets/fonts/Lato-Regular-subset.woff2") format("woff2");
+    font-style: normal;
     font-weight: normal;
     font-display: swap;
 }
@@ -8,6 +9,7 @@
 @font-face {
     font-family: "Roboto";
     src: url("../assets/fonts/Roboto-Bold-subset.woff2") format("woff2");
+    font-style: normal;
     font-weight: bold;
     font-display: swap;
 }
@@ -15,6 +17,7 @@
 @font-face {
     font-family: "IBM Plex Sans";
     src: url("../assets/fonts/IBMPlexSans-Bold-subset.woff2") format("woff2");
+    font-style: normal;
     font-weight: bold;
     font-display: swap;
 }
