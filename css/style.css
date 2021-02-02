@@ -110,21 +110,6 @@ ul.skill_list {
 ul.skill_list li {
     margin: 4px 0 4px 0;
 }
-div.skill_list {
-    display: flex;
-    flex-flow: column nowrap;
-}
-p.skill_item {
-    margin: 2px 0 2px 1rem;
-}
-hr.skill_divider_mobile {
-    border: none;
-    margin: 0 8px;
-    width: 2px;
-    height: 15px;
-    background-color: rgba(97, 94, 94, 0.61);
-    display: none;
-}
 @media screen and (max-width: 750px) {
     div#skills_container {
         flex-flow: column nowrap;
@@ -145,19 +130,6 @@ hr.skill_divider_mobile {
     }
     ul.skill_list li:last-child::after {
         content: none;
-    }
-    div.skill_list {
-        flex-flow: row wrap;
-        align-items: center;
-    }
-    p.skill_item {
-        margin: 2px 0;
-    }
-    hr.skill_divider_mobile {
-        display: initial;
-    }
-    hr.skill_divider_mobile:last-child {
-        display: none;
     }
 }
 
