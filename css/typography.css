@@ -74,6 +74,13 @@ a {
     background-color: transparent;
     color: var(--text);
     text-decoration: underline;
+    will-change: color;
+    transition: color 0.1s ease;
+}
+a:hover,
+a:focus {
+    color: var(--accent-blue);
+    text-decoration-color: var(--accent-blue);
 }
 
 /* Intro */
