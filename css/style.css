@@ -78,6 +78,13 @@ hr {
     border: none;
     background-color: rgba(145, 145, 145, 0.425);
 }
+ul {
+    margin: 0;
+}
+li {
+    font-family: Lato, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+}
 
 /* content container within main element */
 div#content {
@@ -95,6 +102,13 @@ div.skills_column {
     flex: 1 0 auto;
     display: flex;
     flex-flow: column nowrap;
+}
+ul.skill_list {
+    list-style-type: none;
+    padding: 0 0 0 1rem;
+}
+ul.skill_list li {
+    margin: 4px 0 4px 0;
 }
 div.skill_list {
     display: flex;
@@ -114,6 +128,23 @@ hr.skill_divider_mobile {
 @media screen and (max-width: 750px) {
     div#skills_container {
         flex-flow: column nowrap;
+    }
+    ul.skill_list {
+        padding: 0;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    ul.skill_list li {
+        margin: 4px 0 4px 0;
+    }
+    ul.skill_list li::after {
+        content: "|";
+        margin: 0 8px;
+        color: rgba(97, 94, 94, 0.61);
+    }
+    ul.skill_list li:last-child::after {
+        content: none;
     }
     div.skill_list {
         flex-flow: row wrap;
