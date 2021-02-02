@@ -34,9 +34,6 @@ body {
 /* normalize main */
 main {
     display: block;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 /* html elements */
@@ -52,6 +49,11 @@ hr {
 /* header */
 header {
     padding-top: 100px;
+}
+
+#content {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 /* footer */
