@@ -47,27 +47,31 @@
         <link rel="stylesheet" href="css/typography.css" type="text/css" />
     </head>
     <body id="notfound_body">
-        <main id="notfound_main">
-            <div id="page">
-                <div class="side_track"></div>
-                <div id="inner_track" class="notfound_inner_track">
+        <div id="page">
+            <div id="inner_track" class="notfound_inner_track">
+                <header>
+                    <h1>404</h1>
+                    <p id="intro_subtitle">Page Not Found</p>
+                    <br />
+                </header>
+                <main>
                     <section id="section_intro">
-                        <h1>404</h1>
-                        <p id="intro_subtitle">Page Not Found</p>
-                        <br />
                         <p>
                             It appears that you've been directed to a page that
                             does not exist on my domain.
                         </p>
                         <p><a href="/">Go to site home.</a></p>
                     </section>
-                    <hr />
-                </div>
-                <div class="side_track"></div>
+                </main>
+                <hr />
+                <footer>
+                    <img
+                        src="assets/images/logo.svg"
+                        id="footer_logo"
+                        alt="Logo."
+                    />
+                </footer>
             </div>
-        </main>
-        <footer>
-            <img src="assets/images/logo.svg" id="footer_logo" alt="Logo." />
-        </footer>
+        </div>
     </body>
 </html>
