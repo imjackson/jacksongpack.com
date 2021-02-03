@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /styleguide.html
+Disallow: /styleguide
+Noindex: /styleguide.html
+Noindex: /styleguide
