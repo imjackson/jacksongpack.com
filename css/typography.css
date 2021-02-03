@@ -109,10 +109,16 @@ footer a {
 }
 
 /* Intro */
-p#intro_subtitle {
+p.subhead_big {
     color: var(--accent-blue);
     text-transform: uppercase;
     font-size: 1.35rem;
     font-family: Roboto, system-ui;
     margin: 0;
+}
+p.subhead_small {
+    margin: 2px 0 10px 0;
+    font-family: Roboto, system-ui;
+    font-weight: bold;
+    color: var(--accent-blue);
 }
