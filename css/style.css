@@ -81,7 +81,8 @@ hr {
     border: none;
     background-color: rgba(145, 145, 145, 0.425);
 }
-ul {
+ul,
+ol {
     margin: 0;
 }
 li {
