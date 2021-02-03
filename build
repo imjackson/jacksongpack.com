@@ -1,37 +1,49 @@
 #!/bin/bash
 
 clear_dist() {
+    echo "Clearing old dist/ directory..."
     rm -rf dist/
 }
 
 build_dist() {
+    echo "Creating dist/ directory..."
     mkdir dist/
 
     # copy all assets
+    echo "Copying assets..."
     cp -R assets/ dist/assets/
     
     # copy all css
+    echo "Copying css..."
     cp -R css/ dist/css/
 
     # copy any HTML files
+    echo "Copying HTML files..."
     cp *.html dist/
 
     # copy license
+    echo "Copying LICENSE..."
     cp LICENSE dist/LICENSE
 
     # copy robots
+    echo "Copying robots.txt..."
     cp robots.txt dist/robots.txt
+
+    echo -e "\nDone!"
 }
 
-echo "Running Build Script"
+echo -e "Running Build Script\n"
+echo "Looking for exisiting dist/ directory..."
 
 if [[ -d dist/ ]]; then
     # clear dist directory
+    echo "dist/ directory found..."
     clear_dist
     
     # rebuild
     build_dist
 else
     # build dist
+    echo "No dist/ directory found..."
     build_dist
 fi
