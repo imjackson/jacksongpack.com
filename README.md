@@ -16,6 +16,18 @@ A lot of consideration was taken to make this site as fast and as energy efficie
 
 Husky and Pretty-Quick are used to run prettier as a pre-commit hook. You can run prettier manually with `npx prettier --write .`.
 
+## Building Site
+
+The `build` script is a simple bash script that copies necessary public files into the `dist/` directory. This avoids serving development files when using a host like Netlify. If a `dist/` folder is already found in the root directory, it is deleted before building. The following files or directories are copied into the `dist/` directory:
+
+-   assets/
+-   css/
+-   \*.html
+-   LICENSE
+-   robots.txt
+
+Run the script with: `./build`, or direct your host to run `./build` before deploying and ensure that the public directory is set to `dist/`.
+
 ## Development Dependencies
 
 -   Prettier
