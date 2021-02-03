@@ -22,7 +22,6 @@ Husky and Pretty-Quick are used to run prettier as a pre-commit hook. You can ru
 
 ## License
 
-This repository is maintained with the [GNU General Public License v3.0](./LICENSE). The following files are Copyright Jackson Pack, and may not be used without permission:
+This repository is maintained with the [GNU General Public License v3.0](./LICENSE). However the following files or directories are Copyright Jackson Pack, and may not be used without permission:
 
--   assets/images/logo.svg
--   favicon.svg
+-   assets/images/
