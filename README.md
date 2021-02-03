@@ -6,6 +6,8 @@ My personal website / online CV.
 
 This site is built with plain HTML and CSS. Node is used during development for Prettier and pre-commit hooks.
 
+A lot of consideration was taken to make this site as fast and as energy efficient as possible. Fonts are served locally and preloaded. The fonts used are also subsetted into base Latin characters. Images and markup are kept to a minimum.
+
 ## Running Locally
 
 -   Clone the repository: `git clone https://github.com/imjackson/jacksongpack.com.git`
