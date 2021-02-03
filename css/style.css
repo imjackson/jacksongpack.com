@@ -144,9 +144,3 @@ div.experience_item_container {
 div.experience_item_container h3 {
     margin: 0 0;
 }
-p.experience_subhead {
-    margin: 2px 0 10px 0;
-    font-family: Roboto, system-ui;
-    font-weight: bold;
-    color: var(--accent-blue);
-}
