@@ -6,21 +6,31 @@ My personal website / online CV.
 
 This site is built with plain HTML and CSS. Node is used during development for Prettier and pre-commit hooks.
 
-A lot of consideration was taken to make this site as fast and as energy efficient as possible. Fonts are served locally and preloaded. The fonts used are also subsetted into base Latin characters. Images and markup are kept to a minimum.
+A lot of consideration was taken to make this site as fast and as energy efficient as possible. [Fonts](#fonts) are served locally and preloaded. The fonts used are also subsetted into base Latin characters. Images and markup are kept to a minimum.
 
 ## Running Locally
 
--   Clone the repository: `git clone https://github.com/imjackson/jacksongpack.com.git`
+-   Clone the repository: `git clone https://github.com/imjackson/jacksongpack.com.git` or `git clone git@github.com:imjackson/jacksongpack.git` (if using ssh).
 -   Install development dependencies with npm: `npm install`
 -   Run the site using your preffered live-server app.
 
-Husky and Pretty-Quick are used to run prettier as a pre-commit hook. You can run prettier manually with `npx prettier --write`.
+Husky and Pretty-Quick are used to run prettier as a pre-commit hook. You can run prettier manually with `npx prettier --write .`.
 
 ## Development Dependencies
 
 -   Prettier
 -   Husky
 -   Pretty-Quick
+
+## Fonts
+
+Fonts are served locally from [assets/fonts](./assets/fonts/).
+
+Fonts used:
+
+-   Lato
+-   Roboto
+-   IBM Plex Sans
 
 ## License
 
