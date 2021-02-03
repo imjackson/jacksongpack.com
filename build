@@ -1,0 +1,37 @@
+#!/bin/bash
+
+clear_dist() {
+    rm -rf dist/
+}
+
+build_dist() {
+    mkdir dist/
+
+    # copy all assets
+    cp -R assets/ dist/assets/
+    
+    # copy all css
+    cp -R css/ dist/css/
+
+    # copy any HTML files
+    cp *.html dist/
+
+    # copy license
+    cp LICENSE dist/LICENSE
+
+    # copy robots
+    cp robots.txt dist/robots.txt
+}
+
+echo "Running Build Script"
+
+if [[ -d dist/ ]]; then
+    # clear dist directory
+    clear_dist
+    
+    # rebuild
+    build_dist
+else
+    # build dist
+    build_dist
+fi
