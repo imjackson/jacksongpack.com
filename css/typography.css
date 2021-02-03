@@ -89,12 +89,12 @@ p {
 
 /* Links */
 a {
+    font-family: Lato, system-ui;
     background-color: transparent;
     color: var(--text);
     text-decoration: underline;
     will-change: color;
     transition: color 0.1s ease;
-    font-family: inherit;
 }
 a:hover,
 a:focus {
@@ -103,7 +103,6 @@ a:focus {
 }
 /* footer links */
 footer a {
-    font-family: Lato, system-ui;
     font-size: 1.1rem;
     margin: 10px 0;
 }
