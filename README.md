@@ -26,6 +26,8 @@ The `build` script is a simple bash script that copies necessary public files in
 -   LICENSE
 -   robots.txt
 
+The build script will also inject a line into the robots.txt file which points to the sitemap location (/sitemap.xml). A sitemap is not included in this repo, as it is created at build time.
+
 Run the script with: `./build`, or direct your host to run `./build` before deploying and ensure that the public directory is set to `dist/`.
 
 ## Development Dependencies
