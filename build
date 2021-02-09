@@ -30,7 +30,7 @@ build_dist() {
     cp robots.txt dist/robots.txt
 
     echo "Adding sitemap location to robots.txt..."
-    echo -e "\n\nSitemap: jacksongpack.com/sitemap.xml" >> dist/robots.txt
+    echo -e "\n\nSitemap: https://jacksongpack.com/sitemap.xml" >> dist/robots.txt
 
     echo -e "\nDone!"
 }
