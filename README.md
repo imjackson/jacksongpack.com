@@ -10,7 +10,7 @@ A lot of consideration was taken to make this site as fast and as energy efficie
 
 ## Running Locally
 
--   Clone the repository: `git clone https://github.com/imjackson/jacksongpack.com.git` or `git clone git@github.com:imjackson/jacksongpack.git` (if using ssh).
+-   Clone the repository: `git clone https://github.com/imjackson/jacksongpack.com.git` or `git clone git@github.com:imjackson/jacksongpack.com.git` (if using ssh).
 -   Install development dependencies with npm: `npm install`
 -   Run the site using your preffered live-server app.
 
