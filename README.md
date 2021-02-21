@@ -1,4 +1,4 @@
-# jacksongpack.com
+# [jacksongpack.com](https://jacksongpack.com)
 
 My personal website / online CV.
 
