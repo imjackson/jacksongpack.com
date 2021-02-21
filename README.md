@@ -6,7 +6,7 @@ My personal website / online CV.
 
 This site is built with plain HTML and CSS, and is hosted on [Netlify](https://netlify.com). Node is used during development for Prettier and pre-commit hooks.
 
-Consideration was taken to make this site as fast and as energy efficient as possible. [Fonts](#fonts) are served locally and preloaded. The fonts used are also subsetted into base Latin characters. Images and markup are kept to a minimum.
+Consideration was taken to make this site as fast and as [energy efficient](https://websitecarbon.com) as possible. [Fonts](#fonts) are served locally and preloaded. The fonts used are also subsetted into base Latin characters. Images and markup are kept to a minimum.
 
 ## Running Locally
 
