@@ -12,7 +12,7 @@ Consideration was taken to make this site as fast and as energy efficient as pos
 
 -   Clone the repository: `git clone https://github.com/imjackson/jacksongpack.com.git` or `git clone git@github.com:imjackson/jacksongpack.com.git` (if using ssh).
 -   Install development dependencies with npm: `npm install`
--   Run the site using your preffered live-server app.
+-   Run the site using your preferred live-server app.
 
 Husky and Pretty-Quick are used to run prettier as a pre-commit hook. You can run prettier manually with `npx prettier --write .`.
 
