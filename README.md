@@ -6,7 +6,7 @@ My personal website / online CV.
 
 This site is built with plain HTML and CSS, and is hosted on [Netlify](https://netlify.com). Node is used during development to run Prettier as a pre-commit hook.
 
-Consideration was taken to make this site as fast and as [energy efficient](https://websitecarbon.com) as possible. [Fonts](#fonts) are served locally and preloaded. The fonts used are also subsetted into base Latin characters. Images and markup are kept to a minimum.
+Consideration was taken to make this site as fast and as [energy efficient](https://websitecarbon.com) as possible. [Fonts](#fonts) are served locally and preloaded. The fonts used are subsetted into base Latin characters. Images and markup are kept to a minimum.
 
 ## Running Locally
 
@@ -26,7 +26,7 @@ The `build` script is a simple bash script that copies necessary public files in
 -   LICENSE
 -   robots.txt
 
-The `build` script will also inject a line into the robots.txt file which points to the sitemap location (`/sitemap.xml`). A sitemap is not included in this repo, as it is created at build time with [netlify-plugin-sitemap](https://github.com/netlify-labs/netlify-plugin-sitemap).
+The `build` script will also inject a line into the `robots.txt` file which points to the sitemap location (`/sitemap.xml`). A sitemap is not included in this repo, as it is created at build time with [netlify-plugin-sitemap](https://github.com/netlify-labs/netlify-plugin-sitemap).
 
 Run the script with: `./build`, or direct your host to run `./build` before deploying and ensure that the public directory is set to `dist/`.
 
@@ -42,12 +42,12 @@ Fonts are served locally from [assets/fonts](./assets/fonts/).
 
 Fonts used:
 
--   Lato
--   Roboto
--   IBM Plex Sans
+-   [Lato](https://www.latofonts.com/)
+-   [Roboto](https://fonts.google.com/specimen/Roboto?preview.text_type=custom#about)
+-   [IBM Plex Sans](https://www.ibm.com/plex/)
 
 ## License
 
-This repository is maintained with the [GNU General Public License v3.0](./LICENSE). However the following files or directories are Copyright Jackson Pack, and may not be used without permission:
+This repository is maintained with the [GNU General Public License v3.0](./LICENSE) (where applicable). However the following files or directories are Copyright Jackson Pack, and may not be used without permission:
 
 -   assets/images/
