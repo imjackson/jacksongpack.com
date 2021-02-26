@@ -32,9 +32,9 @@ Run the script with: `./build`, or direct your host to run `./build` before depl
 
 ## Development Dependencies
 
--   Prettier
--   Husky
--   Pretty-Quick
+-   [Prettier](https://github.com/prettier/prettier)
+-   [Husky](https://github.com/typicode/husky)
+-   [Pretty-Quick](https://github.com/azz/pretty-quick)
 
 ## Fonts
 
