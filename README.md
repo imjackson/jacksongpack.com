@@ -20,11 +20,11 @@ Husky and Pretty-Quick are used to run Prettier as a pre-commit hook; meaning yo
 
 The `build` script is a simple bash script that copies necessary public files into the `dist/` directory. This avoids serving development files when using a host like Netlify. If a `dist/` folder is already found in the root directory, it is deleted before building. The following files or directories are copied into the `dist/` directory:
 
--   assets/
--   css/
--   \*.html
--   LICENSE
--   robots.txt
+-   `assets/`
+-   `css/`
+-   `\*.html`
+-   `LICENSE`
+-   `robots.txt`
 
 The `build` script will also inject a line into the `robots.txt` file which points to the sitemap location (`/sitemap.xml`). A sitemap is not included in this repo, as it is created at build time with [netlify-plugin-sitemap](https://github.com/netlify-labs/netlify-plugin-sitemap).
 
