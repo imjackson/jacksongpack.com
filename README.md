@@ -1,6 +1,6 @@
 # [jacksongpack.com](https://jacksongpack.com)
 
-My personal website / online CV. [Site Status](https://stats.uptimerobot.com/nXRK6cXKKP)
+My personal website / online CV. ([Site Status](https://stats.uptimerobot.com/nXRK6cXKKP))
 
 ## About
 
