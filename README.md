@@ -19,8 +19,10 @@ characters. Images and markup are kept to a minimum.
 - Clone the repository:
 
 ```bash
-git clone https://github.com/imjackson/jacksongpack.com.git`
+git clone https://github.com/imjackson/jacksongpack.com.git
 ```
+
+or
 
 ```bash
 git clone git@github.com:imjackson/jacksongpack.com.git # if using ssh
@@ -31,7 +33,7 @@ git clone git@github.com:imjackson/jacksongpack.com.git # if using ssh
 
 Husky and Pretty-Quick are used to run Prettier as a pre-commit hook; meaning
 your code will be formatted each time you make a commit. You can run prettier
-manually with `npx prettier --write .`.
+manually with `npm run lint:write`.
 
 ## Building Site
 
@@ -52,8 +54,8 @@ points to the sitemap location (`/sitemap.xml`). A sitemap is not included in
 this repo, as it is created at build time with
 [netlify-plugin-sitemap](https://github.com/netlify-labs/netlify-plugin-sitemap).
 
-Run the script with: `./build`, or direct your host to run `./build` before
-deploying and ensure that the public directory is set to `dist/`.
+Run the script with: `npm run build`, or direct your host to run `npm run build`
+before deploying and ensure that the public directory is set to `dist/`.
 
 ## Development Dependencies
 
